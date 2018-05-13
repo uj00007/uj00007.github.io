@@ -12,8 +12,10 @@ class MenuButton extends Component {
                 marginRight: 10
             }
         }>
-            <h3 style={{alignSelf:"center", color:"white"}}>{this.props.title}</h3>
-        </div>
+        <a href={this.props.link} style={{color:"inherit"}}>
+            <h3 style={{alignSelf:"center", color:"white", fontFamily: '"Raleway", sans-serif'}}>{this.props.title}</h3>
+        </a>
+            </div>
     );
   }
 }
