@@ -16,12 +16,12 @@ class Header extends Component {
           justifyContent:"center",
           flexWrap: "wrap"
         }}>
-        <MenuButton title="Home" link="https://ujjwalgoyal.herokuapp.com/"/>
-        <MenuButton title="Projects" link="#"/>
-        <MenuButton title="Artwork" link="#"/>
-        <MenuButton title="Blog" link="#"/>
-        <MenuButton title="Resume" link="UjjwalGoyal-resume.pdf"/>
-        <MenuButton title="Contact" link="#"/>
+        <MenuButton headingColor={this.props.headingColor} target="" id={1} title="Home" link="https://ujjwalgoyal.herokuapp.com/" tabChange={this.props.tabChange}/>
+        <MenuButton headingColor={this.props.headingColor} target="" id={2} title="Projects" link="#projects" tabChange={this.props.tabChange}/>
+        <MenuButton headingColor={this.props.headingColor} target="" id={3} title="Artwork" link="#artworks" tabChange={this.props.tabChange}/>
+        <MenuButton headingColor={this.props.headingColor} target="" id={4} title="Blog" link="#blog" tabChange={this.props.tabChange}/>
+        <MenuButton headingColor={this.props.headingColor} target="_blank" id={5} title="Resume" link="UjjwalGoyal-resume.pdf" tabChange={this.props.tabChange}/>
+        <MenuButton headingColor={this.props.headingColor} target="" id={6} title="Contact" link="#" tabChange={this.props.tabChange}/>
       </div>
     );
   }

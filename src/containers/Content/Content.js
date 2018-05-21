@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import IconLink from '../../components/IconLink/IconLink';
 
 class Content extends Component {
+  componentDidMount(){
+    document.getElementsByTagName("CANVAS")[0].style.background="#131010";
+  }
   render() {
     return (
       <div style={{color:"red",display:"flex",zIndex:3,position:"absolute",alignSelf:"center",top:100,flexDirection:"column"}}>
