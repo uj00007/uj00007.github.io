@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uj00007.github.io/profile/",
+  "homepage": "https://uj00007.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.3.2",
